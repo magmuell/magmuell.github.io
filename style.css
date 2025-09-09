@@ -1,0 +1,35 @@
+body {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+  /*font-family: Roboto;*/
+  font-family: Roboto Mono;
+  /*background-color: #e8e5d580;*/
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: grey;
+}
+
+.centeredtext {
+  background-color: red;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .centeredtext {
+    background-color: blue;
+  }
+  .flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
